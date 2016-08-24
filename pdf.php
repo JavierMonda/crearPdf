@@ -32,8 +32,6 @@
         $cabecera = "<span><img src='ruta_imagen' width='100px' height='50px'/><b>Informe PDF</b></span>";
         $pie = "<span>Descripción pie</span>";
         $mpdf=new mPDF();
-        //$style=file_get_contents('../css/tabla.css');
-        //$mpdf->WriteHTML($style, 1);
         $mpdf->SetHTMLHeader($cabecera);
         $mpdf->SetHTMLFooter($pie);
 
